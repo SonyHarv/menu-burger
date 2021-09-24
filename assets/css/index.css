@@ -1,4 +1,11 @@
 @import "./hamburger.css";
+@import "./body.css";
+@import "./header.css";
+@import "./main.css";
+@import "./menu.css";
+@import "./panel.css";
+@import "./section.css";
+
 :root {
   font-size: 16px;
   --yellowMain: #f7df1e;
@@ -13,103 +20,4 @@
 }
 html {
   scroll-behavior: smooth;
-}
-body {
-  margin: 0;
-  /* max-inline-size: 1200px; */
-  font-family: var(--baseFontFamily);
-  /* background: var(--grisMain); */
-  overflow-x: hidden;
-  background: linear-gradient(to top, #00bf8f, #001510);
-}
-
-.header {
-  /* border: 1px solid green; */
-  position: sticky;
-  top: 0;
-  font: var(--textFontTitle);
-  background: var(--yellowMain);
-  color: var(--grisMain);
-  padding: 1rem;
-  margin: auto;
-}
-.header h1 {
-  margin-block-start: 20px;
-  margin-block-end: 20px;
-  text-align: center;
-  /* border: 1px solid red; */
-}
-
-.main {
-  max-inline-size: 1200px;
-  margin: auto;
-  text-align: center;
-  width: 100%;
-  box-shadow: 1px 6px 41px 14px rgb(0 0 0 / 95%);
-}
-
-main .section {
-  /* border: 1px solid red; */
-  min-height: 100vh;
-  width: 100%;
-  padding-top: 150px;
-}
-
-#section1 {
-  background: linear-gradient(to right, #2193b0, #6dd5ed);
-}
-#section2 {
-  background: linear-gradient(to top, #52c234, #061700);
-}
-#section3 {
-  background: linear-gradient(to top, #ed213a, #93291e);
-}
-#section4 {
-  background: linear-gradient(to right, #f46b45, #eea849);
-}
-
-.panel {
-  z-index: 998;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  inline-size: 100%;
-  background: var(--grisModal);
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
-  align-items: center;
-  /* border: 1px solid red; */
-  /* justify-content: center; */
-}
-
-.menu a {
-  padding: 3rem;
-  font: var(--textFont);
-  display: block;
-  inline-size: inherit;
-  color: var(--yellowModal);
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
-.menu a:hover {
-  font-weight: bold;
-  color: var(--grisModal);
-  background: var(--yellowModal);
-}
-
-ul {
-  /* padding: 2rem; */
-  padding: 0;
-  /* margin-block-end: 2rem; */
-  /* border: 1px solid red; */
-  width: 100%;
-  list-style: none;
 }
