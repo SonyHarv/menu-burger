@@ -1,0 +1,20 @@
+.panel {
+  z-index: 998;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  inline-size: 100%;
+  background: var(--grisModal);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  transform: translate(0, -100%);
+}
+
+.panel.is-active {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible;
+}
