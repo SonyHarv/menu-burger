@@ -1,0 +1,14 @@
+.header {
+  position: sticky;
+  top: 0;
+  font: var(--textFontTitle);
+  background: var(--yellowMain);
+  color: var(--grisMain);
+  padding: 1rem;
+  margin: auto;
+}
+.header h1 {
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  text-align: center;
+}
