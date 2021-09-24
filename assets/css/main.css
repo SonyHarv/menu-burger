@@ -1,0 +1,13 @@
+.main {
+  max-inline-size: 1200px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  box-shadow: 1px 6px 41px 14px rgb(0 0 0 / 95%);
+}
+
+main .section {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 150px;
+}
